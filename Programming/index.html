@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital Neon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="selector">
+            <select id="city" onchange="updateClock()">
+                <option value="America/Sao_Paulo">São Paulo</option>
+                <option value="Europe/Lisbon">Lisboa</option>
+                <option value="Europe/London">Londres</option>
+                <option value="Asia/Tokyo">Tóquio</option>
+                <option value="America/New_York">Nova York</option>
+            </select>
+            <div class="arrow"></div>
+        </div>
+
+        <div class="clock">
+            <span id="hours">00</span><span>:</span>
+            <span id="minutes">00</span><span>:</span>
+            <span id="seconds">00</span>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
