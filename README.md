@@ -5,16 +5,12 @@ Repositório com exemplos, experimentos e scripts úteis escritos em **HTML**, c
 ## 📂 Estrutura
 
 
-├── animations/ # Efeitos de transição e keyframes
-├── events/ # Manipulação de eventos via HTML + JS inline
-├── forms/ # Exemplos com validação, inputs dinâmicos
-├── interactions/ # Hover, toggle, modais, tooltips simples
-├── canvas/ # Projetos usando <canvas> nativo
+├── animations # Efeitos de transição e keyframes
+├── events # Manipulação de eventos via HTML + JS inline
+├── forms # Exemplos com validação, inputs dinâmicos
+├── interactions # Hover, toggle, modais, tooltips simples
+├── canvas # Projetos usando <canvas> nativo
 └── index.html # Sumário navegável com links para os exemplos
-
-bash
-Copiar
-Editar
 
 ## 🚀 Como usar
 
